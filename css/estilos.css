@@ -1,4 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Fascinate&family=Roboto:wght@300&display=swap");
+
+:root {
+  --gold: #f4bd76;
+  --gold2: #f6cd8f;
+  --gray: #ffffff80;
+  --gray2: #f7d9d990;
+  --black1: #1a1b1f;
+  --black2: #305538;
+  --shadow: 0 8px 8px;
+  --color_shadow: #00000033;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -7,4 +19,23 @@
 
 body {
   font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 900%;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 100px 0;
+  height: auto;
+}
+
+.container--modifier {
+  width: 60%;
+}
+
+.hero {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(180deg, #30353b 0%, #1a1b1f 100%);
 }
