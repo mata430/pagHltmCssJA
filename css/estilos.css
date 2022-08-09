@@ -39,3 +39,21 @@ body {
   min-height: 100vh;
   background: linear-gradient(180deg, #30353b 0%, #1a1b1f 100%);
 }
+
+.nav_hero {
+  color: #fff;
+  height: 70px;
+  border-bottom: 1px solid rgb(255, 255, 255, 0.1);
+}
+
+.nav_container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: inherit;
+  padding: 0;
+}
+
+.logo_name{
+  
+}
